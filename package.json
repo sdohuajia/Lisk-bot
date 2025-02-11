@@ -1,13 +1,14 @@
 {
-  "name": "daily-checkin",
+  "name": "lisk-auto-checkin",
   "version": "1.0.0",
+  "description": "Lisk自动签到程序",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "web3": "^4.0.3",
-    "kleur": "^4.1.5",
-    "bun": "^1.0.0"
+    "web3": "^1.0.0", 
+    "kleur": "^4.0.0",
+    "node-fetch": "^2.6.0"
   }
 }
