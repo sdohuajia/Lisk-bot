@@ -68,6 +68,8 @@ function execute_lisk_signin() {
     # 使用 screen 启动 npm
     screen -dmS lisk npm start
     echo "Lisk 每日签到已在后台启动，使用 screen 会话名 'screen -r lisk'。"
+
+    read -p "按任意键返回主菜单..."
 }
 
 # 主菜单函数
