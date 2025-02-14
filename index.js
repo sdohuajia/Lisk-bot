@@ -3,9 +3,6 @@ const kleur = require("kleur");
 const fetch = require('node-fetch'); 
 const fs = require('fs');
 
-// 设置进程标题
-process.title = "Lisk自动签到--ferdie_jhovie编写";
-
 // 配置
 const RPC_URL = "https://rpc.api.lisk.com";
 const CHECKIN_API_URL = "https://portal-api.lisk.com/graphql";
