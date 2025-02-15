@@ -19,6 +19,14 @@ function check_and_install_dependencies() {
         echo "git 已安装"
     fi
 
+    # 检查 screen 是否安装
+    if ! command -v screen &> /dev/null; then
+        echo "screen 未安装，正在安装..."
+        apt-get install -y screen
+    else
+        echo "screen 已安装"
+    fi
+
     # 检查 node 是否安装
     if ! command -v node &> /dev/null; then
         echo "Node.js 未安装，正在安装..."
